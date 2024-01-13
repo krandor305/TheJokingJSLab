@@ -3,25 +3,25 @@ document.onkeydown = function(e) {
     switch(e.which) {
         case 38: // up
             actualXPosition -= 100
-            window.scrollTo(actualXPosition,1000)
+            window.scrollTo(1000,actualXPosition)
             console.log('up:'+actualXPosition)
         break;
 
         case 90: // up
             actualXPosition -= 100
-            window.scrollTo(actualXPosition,1000)
+            window.scrollTo(1000,actualXPosition)
             console.log('up:'+actualXPosition)
         break;
 
         case 40: // down
             actualXPosition += 100
-            window.scrollTo(actualXPosition,1000)
+            window.scrollTo(1000,actualXPosition)
             console.log('down:'+actualXPosition)
         break;
 
         case 83: // downb
             actualXPosition += 100
-            window.scrollTo(actualXPosition,1000)
+            window.scrollTo(1000,actualXPosition)
             console.log('up:'+actualXPosition)
         break;
 
