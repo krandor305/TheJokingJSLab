@@ -4,25 +4,25 @@ document.onkeydown = function(e) {
         case 38: // up
             actualXPosition -= 100
             window.scrollTo(actualXPosition,1000)
-            console.log('up:'+actualXPostition)
+            console.log('up:'+actualXPosition)
         break;
 
         case 90: // up
             actualXPosition -= 100
             window.scrollTo(actualXPosition,1000)
-            console.log('up:'+actualXPostition)
+            console.log('up:'+actualXPosition)
         break;
 
         case 40: // down
             actualXPosition += 100
             window.scrollTo(actualXPosition,1000)
-            console.log('down:'+actualXPostition)
+            console.log('down:'+actualXPosition)
         break;
 
         case 83: // downb
             actualXPosition += 100
             window.scrollTo(actualXPosition,1000)
-            console.log('up:'+actualXPostition)
+            console.log('up:'+actualXPosition)
         break;
 
         default: return; // exit this handler for other keys
